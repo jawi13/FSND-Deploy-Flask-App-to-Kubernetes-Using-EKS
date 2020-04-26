@@ -34,7 +34,9 @@ phases:
       - pwd
       - ls
 artifacts:
-  files: build.json
+  files: 
+      - build.json
+      - simple_jwt_api.yml
 
 env:
   parameter-store:         
