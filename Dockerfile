@@ -1,7 +1,7 @@
 FROM python:stretch
 
-COPY . /FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
-WORKDIR /FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+COPY . /app
+WORKDIR /app
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
